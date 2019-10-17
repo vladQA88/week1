@@ -25,7 +25,7 @@ public class task18 {
             System.out.println("Ошибка ввода/вывода: " + exc);
         }
         BufferedReader BR = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Изменить тект: ");
+        System.out.println("Изменить тектъ: ");
         try (FileWriter fw = new FileWriter("C:\\Users\\user\\IdeaProjects\\week1\\src\\Task18\\testo.txt")) {
             do {
                 s = BR.readLine();
