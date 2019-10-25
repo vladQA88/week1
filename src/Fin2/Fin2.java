@@ -29,7 +29,7 @@ public class Fin2 {
             mass[min]=mass[least];
             mass[least]=tmp;
         }
-        //----------------------
+        //---------------------
         System.out.println("Ваш массив отсортирован по возрастанию:");
         for (int i=0;i<size;i++) {
             System.out.print(mass[i]+" ");
